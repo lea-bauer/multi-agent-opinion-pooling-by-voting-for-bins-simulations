@@ -1,7 +1,6 @@
 mod input;
 mod setting;
 mod pooling;
-mod voting;
 mod scoring;
 mod graphs;
 
