@@ -1,0 +1,15 @@
+[package]
+name = "multi-agent_opinion_pooling_by_voting_for_bins_simulations"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+rand_distr = "0.4.3"
+rust_decimal = "1.33"
+rust_decimal_macros = "1.33"
+num = "0.4.1"
+plotters = "0.3.3"
+bigdecimal = "0.4.2"
