@@ -56,7 +56,7 @@ fn choose_belief_center(voters: usize, alternatives :usize, bins: Vec<[Decimal;2
             let mut lower = 0.0;
             let mut upper = 0.0;
             //generate first subinterval [0,precise_belief]
-            for false_precise_belief in 0..alternatives - 1 {
+            for false_precise_belief in 0..alternatives {
                 if false_precise_belief != (ground_truth_bin - 1) {
                     upper = precise_beliefs_of_one_voter[false_precise_belief];
                     break;
